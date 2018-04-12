@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_rlative '../lib/turn'
+require_relative '../lib/turn'
 
 # Define board elements
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
