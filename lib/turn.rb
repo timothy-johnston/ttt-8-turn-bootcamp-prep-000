@@ -32,7 +32,7 @@ def turn(board)
   
   move(board,index,"X")
   
-  puts board
+  display_board(board)
   
 end
 
