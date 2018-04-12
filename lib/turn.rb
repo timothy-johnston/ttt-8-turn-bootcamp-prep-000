@@ -30,7 +30,9 @@ def turn(board)
     turn(board)
   end
   
+  move(board,index,"X")
+  
 end
 
-move(board,index,"X")
+
 
