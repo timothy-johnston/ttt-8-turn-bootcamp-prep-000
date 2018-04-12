@@ -21,5 +21,11 @@ def move(board,index,token="X")
 end
 
 def turn(board)
-  puts "please enter 1-9:"
+  input = puts "please enter 1-9:"
+  
+  input_to_index(input)
+  if valid_move? == false
+    turn(board)
+  end
+  
 end
